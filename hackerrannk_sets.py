@@ -155,3 +155,66 @@
 #     arr = list(map(int, input().split()))
 #     result = average(arr)
 #     print(result)
+
+
+
+
+
+
+
+# # There is an array of n integers. There are also  disjoint sets,A  and B, each containing m integers.
+# # You like all the integers in set A and dislike all the integers in set B. Your initial happiness is 0.
+# # For each i integer in the array, if i belongs A, you add 1 to your happiness. If i belongs B, you add -1 to your happiness.
+# #  Otherwise, your happiness does not change. Output your final happiness at the end.
+# # Note: Since A and B are sets, they have no repeated elements. However, the array might contain duplicate elements.
+
+# # Constraints
+# # 1<=n<=10^5
+# # 1<=m<=10^5
+# # 1<=Any integer in the input <=10^9
+
+
+# # Input Format
+# # The first line contains integers n and m separated by a space.
+# # The second line contains n integers, the elements of the array.
+# # The third and fourth lines contain m integers, A and B, respectively.
+
+# # Output Format
+# # Output a single integer, your total happiness.
+
+# # Sample Input
+# # 3 2
+# # 1 5 3
+# # 3 1
+# # 5 7
+
+
+
+# def calculate_happiness(arr, A, B):
+#     happiness = 0
+    
+#     # Iterate through each element in the array
+#     for i in arr:
+#         if i in A:
+#             happiness += 1
+#         elif i in B:
+#             happiness -= 1
+    
+#     return happiness
+
+# if __name__ == '__main__':
+#     # Read the first line of input
+#     n, m = map(int, input().split())
+    
+#     # Read the second line of input as the array
+#     arr = list(map(int, input().split()))
+    
+#     # Read the third and fourth lines as sets A and B
+#     A = set(map(int, input().split()))
+#     B = set(map(int, input().split()))
+    
+#     # Calculate the happiness
+#     result = calculate_happiness(arr, A, B)
+    
+#     # Print the result
+#     print(result)
