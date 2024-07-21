@@ -485,3 +485,55 @@
 
 # # Output the total number of students who are subscribed to only the English newspaper
 # print(len(only_english_subscribers))
+
+
+
+
+
+# # Task
+# # Students of District College have subscriptions to English and French newspapers. Some students have subscribed to English only, some have subscribed to French only, and some have subscribed to both newspapers.
+# # You are given two sets of student roll numbers. One set has subscribed to the English newspaper, and one set has subscribed to the French newspaper. Your task is to find the total number of students who have subscribed to either the English or the French newspaper but not both.
+
+# # Input Format
+# # The first line contains the number of students who have subscribed to the English newspaper.
+# # The second line contains the space separated list of student roll numbers who have subscribed to the English newspaper.
+# # The third line contains the number of students who have subscribed to the French newspaper.
+# # The fourth line contains the space separated list of student roll numbers who have subscribed to the French newspaper.
+
+# # Constraints
+# # 0<Tot5al number of students in college < 1000
+
+# # Output Format
+# # Output total number of students who have subscriptions to the English or the French newspaper but not both.
+
+# # Sample Input
+# # 9
+# # 1 2 3 4 5 6 7 8 9
+# # 9
+# # 10 1 2 3 11 21 55 6 8
+
+# # Sample Output
+# # 8
+
+# # Explanation
+# # The roll numbers of students who have subscriptions to English or French newspapers but not both are: 4,5,7,9,10,11,21
+# #  and 55.
+# # Hence, the total is 8 students.
+
+
+
+# # Read the number of students subscribed to the English newspaper
+# n = int(input())
+# # Read the roll numbers of English subscribers
+# english_subscribers = set(map(int, input().split()))
+
+# # Read the number of students subscribed to the French newspaper
+# b = int(input())
+# # Read the roll numbers of French subscribers
+# french_subscribers = set(map(int, input().split()))
+
+# # Find the symmetric difference between the English and French subscribers sets
+# exclusive_subscribers = english_subscribers.symmetric_difference(french_subscribers)
+
+# # Output the total number of students who have subscriptions to the English or the French newspaper but not both
+# print(len(exclusive_subscribers))
