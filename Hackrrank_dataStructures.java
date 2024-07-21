@@ -250,3 +250,111 @@
 //         scanner.close();
 //     }
 // }
+
+
+
+
+
+
+// // Sometimes it's better to use dynamic size arrays. Java's Arraylist can provide you this feature. Try to solve this problem using Arraylist.
+// // You are given n lines. In each line there are zero or more integers. You need to answer a few queries where you need to tell the number located in yth position of xth line.
+// // Take your input from System.in.
+
+// // Input Format
+// // The first line has an integer n. In each of the next n lines there will be an integer d denoting number of integers on that line and then there will be d space-separated integers. In the next line there will be an integer q denoting number of queries. Each query will consist of two integers x and y.
+
+// // Constraints
+// // 1<=n<=20000
+// // 0<=d<=50000
+// // 1<=q<=1000
+// // 1<=x<=n
+
+// // Each number will fit in signed integer.
+// // Total number of integers in n lines will not cross 10^5.
+
+// // Output Format
+// // In each line, output the number located in yth position of  xth line. If there is no such position, just print "ERROR!"
+
+// // Sample Input
+// // 5
+// // 5 41 77 74 22 44
+// // 1 12
+// // 4 37 34 36 52
+// // 0
+// // 3 20 22 33
+// // 5
+// // 1 3
+// // 3 4
+// // 3 1
+// // 4 3
+// // 5 5
+
+// // Sample Output
+// // 74
+// // 52
+// // 37
+// // ERROR!
+// // ERROR!
+
+
+
+// import java.io.*;
+// import java.util.*;
+// import java.text.*;
+// import java.math.*;
+// import java.util.regex.*;
+
+// public class Solution {
+
+//     public static void main(String[] args) throws IOException {
+//         // Initialize Scanner to read from standard input
+//         Scanner scanner = new Scanner(System.in);
+
+//         // Read number of lines
+//         int n = scanner.nextInt();
+//         scanner.nextLine(); // consume the newline character
+
+//         // List to store each line of integers as ArrayList
+//         List<List<Integer>> lines = new ArrayList<>();
+
+//         // Read each line of integers
+//         for (int i = 0; i < n; i++) {
+//             // Read the whole line
+//             String line = scanner.nextLine();
+//             // Create a Scanner to parse the line
+//             Scanner lineScanner = new Scanner(line);
+//             // First number is the count of integers in the line
+//             int d = lineScanner.nextInt();
+//             // List to store the integers in this line
+//             List<Integer> currentLine = new ArrayList<>();
+//             // Add the integers to the currentLine list
+//             for (int j = 0; j < d; j++) {
+//                 if (lineScanner.hasNextInt()) {
+//                     currentLine.add(lineScanner.nextInt());
+//                 }
+//             }
+//             // Add the currentLine list to the lines list
+//             lines.add(currentLine);
+//             lineScanner.close();
+//         }
+
+//         // Read number of queries
+//         int q = scanner.nextInt();
+
+//         // Process each query
+//         for (int i = 0; i < q; i++) {
+//             int x = scanner.nextInt();
+//             int y = scanner.nextInt();
+//             // Check if the xth line and yth position are valid
+//             if (x > 0 && x <= lines.size() && y > 0 && y <= lines.get(x - 1).size()) {
+//                 // Output the value at the specified position
+//                 System.out.println(lines.get(x - 1).get(y - 1));
+//             } else {
+//                 // Output "ERROR!" if the position is invalid
+//                 System.out.println("ERROR!");
+//             }
+//         }
+        
+//         scanner.close();
+//     }
+// }
