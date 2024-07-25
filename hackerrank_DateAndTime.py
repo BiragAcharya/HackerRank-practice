@@ -161,3 +161,28 @@
 #         break
 
 # print(is_strict_superset)
+
+
+
+
+
+
+
+
+def find_captain_room(k, room_list):
+    unique_rooms = set(room_list)
+    sum_all = sum(room_list)
+    sum_unique = sum(unique_rooms)
+    
+    # Calculate the captain's room number
+    captain_room = (sum_all - k * sum_unique) // (1 - k)
+    
+    return captain_room
+
+# Read input
+k = int(input().strip())
+room_list = list(map(int, input().strip().split()))
+
+# Find and print the captain's room number
+captain_room_number = find_captain_room(k, room_list)
+print(captain_room_number)
