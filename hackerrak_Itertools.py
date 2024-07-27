@@ -42,3 +42,25 @@
 
 # # Printing the output in the required format
 # print(' '.join(map(str, cartesian_product)))
+
+
+
+
+
+from itertools import permutations
+
+# Reading the input
+input_data = input().strip().split()
+S = input_data[0]
+k = int(input_data[1])
+
+# Generate permutations of size k
+perms = list(permutations(S, k))
+
+# Sort permutations lexicographically
+sorted_perms = sorted(perms)
+
+# Print each permutation on a new line
+for perm in sorted_perms:
+    print(''.join(perm))
+
