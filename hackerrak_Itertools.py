@@ -47,20 +47,60 @@
 
 
 
-from itertools import permutations
 
-# Reading the input
-input_data = input().strip().split()
-S = input_data[0]
-k = int(input_data[1])
 
-# Generate permutations of size k
-perms = list(permutations(S, k))
+# # Task
+# # You are given a string S.
+# # Your task is to print all possible permutations of size k of the string in lexicographic sorted order.
 
-# Sort permutations lexicographically
-sorted_perms = sorted(perms)
+# # Input Format
+# # A single line containing the space separated string S and the integer value k.
 
-# Print each permutation on a new line
-for perm in sorted_perms:
-    print(''.join(perm))
+# # Constraints
+# # 0<k<=len(S)
+
+# # The string contains only UPPERCASE characters.
+
+# # Output Format
+# # Print the permutations of the string S on separate lines.
+
+# # Sample Input
+# # HACK 2
+
+# # Sample Output
+# # AC
+# # AH
+# # AK
+# # CA
+# # CH
+# # CK
+# # HA
+# # HC
+# # HK
+# # KA
+# # KC
+# # KH
+
+# # Explanation
+# # All possible size 2 permutations of the string "HACK" are printed in lexicographic sorted order.
+
+
+
+
+# from itertools import permutations
+
+# # Reading the input
+# input_data = input().strip().split()
+# S = input_data[0]
+# k = int(input_data[1])
+
+# # Generate permutations of size k
+# perms = list(permutations(S, k))
+
+# # Sort permutations lexicographically
+# sorted_perms = sorted(perms)
+
+# # Print each permutation on a new line
+# for perm in sorted_perms:
+#     print(''.join(perm))
 
