@@ -109,53 +109,55 @@
 
 
 
-Task
-You are given a string S.
-Your task is to print all possible combinations, up to size k, of the string in lexicographic sorted order.
 
-Input Format
-A single line containing the string S and integer value k separated by a space.
+# # Task
+# # You are given a string S.
+# # Your task is to print all possible combinations, up to size k, of the string in lexicographic sorted order.
 
-Constraints
-0<k<=len(S)
+# # Input Format
+# # A single line containing the string S and integer value k separated by a space.
 
-The string contains only UPPERCASE characters.
+# # Constraints
+# # 0<k<=len(S)
 
-Output Format
-Print the different combinations of string S on separate lines.
+# # The string contains only UPPERCASE characters.
 
-Sample Input
-HACK 2
+# # Output Format
+# # Print the different combinations of string S on separate lines.
 
-Sample Output
-A
-C
-H
-K
-AC
-AH
-AK
-CH
-CK
-HK
+# # Sample Input
+# # HACK 2
+
+# # Sample Output
+# # A
+# # C
+# # H
+# # K
+# # AC
+# # AH
+# # AK
+# # CH
+# # CK
+# # HK
 
 
 
-from itertools import combinations
 
-def print_combinations(string, k):
-    # Sort the string to ensure lexicographic order
-    sorted_string = ''.join(sorted(string))
+# from itertools import combinations
+
+# def print_combinations(string, k):
+#     # Sort the string to ensure lexicographic order
+#     sorted_string = ''.join(sorted(string))
     
-    # Generate and print combinations of sizes from 1 to k
-    for size in range(1, k + 1):
-        for comb in combinations(sorted_string, size):
-            print(''.join(comb))
+#     # Generate and print combinations of sizes from 1 to k
+#     for size in range(1, k + 1):
+#         for comb in combinations(sorted_string, size):
+#             print(''.join(comb))
 
-# Read input
-input_string = input().strip()
-string, k = input_string.split()
-k = int(k)
+# # Read input
+# input_string = input().strip()
+# string, k = input_string.split()
+# k = int(k)
 
-# Call the function
-print_combinations(string, k)
+# # Call the function
+# print_combinations(string, k)
