@@ -104,3 +104,27 @@
 # for perm in sorted_perms:
 #     print(''.join(perm))
 
+
+
+
+
+
+
+from itertools import combinations
+
+def print_combinations(string, k):
+    # Sort the string to ensure lexicographic order
+    sorted_string = ''.join(sorted(string))
+    
+    # Generate and print combinations of sizes from 1 to k
+    for size in range(1, k + 1):
+        for comb in combinations(sorted_string, size):
+            print(''.join(comb))
+
+# Read input
+input_string = input().strip()
+string, k = input_string.split()
+k = int(k)
+
+# Call the function
+print_combinations(string, k)
