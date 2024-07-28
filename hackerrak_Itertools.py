@@ -165,32 +165,56 @@
 
 
 
-Task
-You are given a string S.
-Your task is to print all possible size k replacement combinations of the string in lexicographic sorted order.
 
-Input Format
-A single line containing the string S and integer value k separated by a space.
 
-Constraints
-0<k<=len(S)
+# # Task
+# # You are given a string S.
+# # Your task is to print all possible size k replacement combinations of the string in lexicographic sorted order.
 
-The string contains only UPPERCASE characters.
+# # Input Format
+# # A single line containing the string S and integer value k separated by a space.
 
-Output Format
-Print the combinations with their replacements of string S on separate lines.
+# # Constraints
+# # 0<k<=len(S)
 
-Sample Input
-HACK 2
+# # The string contains only UPPERCASE characters.
 
-Sample Output
-AA
-AC
-AH
-AK
-CC
-CH
-CK
-HH
-HK
-KK
+# # Output Format
+# # Print the combinations with their replacements of string S on separate lines.
+
+# # Sample Input
+# # HACK 2
+
+# # Sample Output
+# # AA
+# # AC
+# # AH
+# # AK
+# # CC
+# # CH
+# # CK
+# # HH
+# # HK
+# # KK
+
+
+
+
+# from itertools import combinations_with_replacement
+
+# def print_replacement_combinations(string, k):
+#     # Sort the string to ensure lexicographic order
+#     sorted_string = ''.join(sorted(string))
+    
+#     # Generate and print replacement combinations of size k
+#     combinations = combinations_with_replacement(sorted_string, k)
+#     for comb in combinations:
+#         print(''.join(comb))
+
+# # Read input
+# input_string = input().strip()
+# string, k = input_string.split()
+# k = int(k)
+
+# # Call the function
+# print_replacement_combinations(string, k)
