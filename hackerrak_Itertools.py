@@ -218,3 +218,36 @@
 
 # # Call the function
 # print_replacement_combinations(string, k)
+
+
+
+
+
+
+
+
+# Read the number of elements in the set
+n = int(input())
+
+# Read the elements of the set
+s = set(map(int, input().split()))
+
+# Read the number of commands
+N = int(input())
+
+# Execute each command
+for _ in range(N):
+    command = input().split()
+    if command[0] == "pop":
+        s.pop()
+    elif command[0] == "remove":
+        try:
+            s.remove(int(command[1]))
+        except KeyError:
+            pass
+    elif command[0] == "discard":
+        s.discard(int(command[1]))
+
+# Print the sum of the elements in the set
+print(sum(s))
+
