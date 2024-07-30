@@ -714,3 +714,54 @@
 //         }
 //     }
 // }
+
+
+
+
+
+
+
+
+
+
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        Deque<Integer> deque = new ArrayDeque<>();
+        HashMap<Integer, Integer> countMap = new HashMap<>();
+        int n = in.nextInt();
+        int m = in.nextInt();
+
+        int maxUnique = 0;
+
+        for (int i = 0; i < n; i++) {
+            int num = in.nextInt();
+            deque.addLast(num);
+
+            if (countMap.containsKey(num)) {
+                countMap.put(num, countMap.get(num) + 1);
+            } else {
+                countMap.put(num, 1);
+            }
+
+            // Maintain the window size of 'm'
+            if (deque.size() > m) {
+                int removed = deque.removeFirst();
+                if (countMap.get(removed) == 1) {
+                    countMap.remove(removed);
+                } else {
+                    countMap.put(removed, countMap.get(removed) - 1);
+                }
+            }
+
+            // Update the maximum number of unique elements
+            if (deque.size() == m) {
+                maxUnique = Math.max(maxUnique, countMap.size());
+            }
+        }
+
+        System.out.println(maxUnique);
+    }
+}
