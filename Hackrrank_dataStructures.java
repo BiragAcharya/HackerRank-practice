@@ -804,3 +804,47 @@
 //         System.out.println(maxUnique);
 //     }
 // }
+
+
+
+
+
+
+
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+ public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int t = s.nextInt();
+        String [] pair_left = new String[t];
+        String [] pair_right = new String[t];
+        
+        for (int i = 0; i < t; i++) {
+            pair_left[i] = s.next();
+            pair_right[i] = s.next();
+        }
+        // Create a HashSet to store unique pairs
+        HashSet<String> uniquePairs = new HashSet<>();
+        
+        for (int i = 0; i < t; i++) {
+            // Create a string representation of the pair
+            String pair = pair_left[i] + " " + pair_right[i];
+            
+            // Add the pair to the set
+            uniquePairs.add(pair);
+            
+            // Print the size of the set, which is the number of unique pairs so far
+            System.out.println(uniquePairs.size());
+        }
+        
+        s.close();
+
+    }
+}
