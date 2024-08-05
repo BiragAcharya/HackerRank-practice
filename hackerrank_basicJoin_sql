@@ -85,3 +85,39 @@
 -- ORDER BY
 --     full_score_count DESC,
 --     hacker_id ASC;
+
+
+
+
+
+
+
+
+
+-- WITH MinCostWands AS (
+--     SELECT
+--         wp.code,
+--         wp.age,
+--         w.power,
+--         MIN(w.coins_needed) AS min_coins_needed
+--     FROM
+--         Wands w
+--         JOIN Wands_Property wp ON w.code = wp.code
+--     WHERE
+--         wp.is_evil = 0
+--     GROUP BY
+--         wp.code,
+--         wp.age,
+--         w.power
+-- )
+-- SELECT
+--     w.id,
+--     mcw.age,
+--     mcw.min_coins_needed AS coins_needed,
+--     mcw.power
+-- FROM
+--     MinCostWands mcw
+--     JOIN Wands w ON mcw.code = w.code AND mcw.min_coins_needed = w.coins_needed
+-- ORDER BY
+--     mcw.power DESC,
+--     mcw.age DESC;
