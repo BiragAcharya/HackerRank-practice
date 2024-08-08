@@ -47,3 +47,9 @@
 
 -- SELECT MAX(POPULATION) - MIN(POPULATION) AS PopulationDifference
 -- FROM CITY;
+
+
+
+
+SELECT FLOOR(AVG(POPULATION)) AS avg_population
+FROM CITY;
