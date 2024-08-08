@@ -129,3 +129,41 @@
 
 # for item_name, net_price in items.items():
 #     print(f"{item_name} {net_price}")
+
+
+
+
+
+
+
+
+from collections import Counter
+
+# Input the number of shoes
+n = int(input())
+
+# Input the list of shoe sizes in the shop
+shoe_sizes = list(map(int, input().split()))
+
+# Create a Counter for shoe sizes
+inventory = Counter(shoe_sizes)
+
+# Input the number of customers
+m = int(input())
+
+# Initialize the money earned to 0
+total_earned = 0
+
+# Process each customer
+for _ in range(m):
+    size, price = map(int, input().split())
+    
+    # Check if the desired size is available
+    if inventory[size] > 0:
+        # Add the price to the total earned
+        total_earned += price
+        # Decrease the count of the shoe size in inventory
+        inventory[size] -= 1
+
+# Output the total money earned
+print(total_earned)
