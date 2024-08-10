@@ -2,7 +2,6 @@
 -- Input Format
 -- The CITY table is described as follows: 
 
-
 -- SELECT SUM(POPULATION) AS TotalPopulation
 -- FROM CITY
 -- WHERE DISTRICT = 'California';
@@ -12,7 +11,6 @@
 -- Query the average population of all cities in CITY where District is California.
 -- Input Format
 -- The CITY table is described as follows: 
-
 
 -- SELECT AVG(POPULATION) AS AveragePopulation
 -- FROM CITY
@@ -25,7 +23,6 @@
 -- Query the sum of the populations for all Japanese cities in CITY. The COUNTRYCODE for Japan is JPN.
 -- Input Format
 -- The CITY table is described as follows:
-
 
 
 -- SELECT SUM(POPULATION) AS TotalPopulation
