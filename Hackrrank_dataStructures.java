@@ -35,7 +35,6 @@
 // // Each line i of the n subsequent lines contains a single integer denoting the value of element ai.
 
 // // Output Format
-
 // // You are not responsible for printing any output to stdout. Locked code in the editor loops through array a and prints each sequential element on a new line.
 
 
