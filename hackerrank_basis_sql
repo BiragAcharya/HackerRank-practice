@@ -2,7 +2,6 @@
 -- -- The CountryCode for America is USA.
 -- -- The CITY table is described as follows:
 
-
 -- SELECT *
 -- FROM CITY
 -- WHERE CountryCode = 'USA'
