@@ -96,6 +96,7 @@
 
 
 
+
 # # Consider a list (list = []). You can perform the following commands:
 # # insert i e: Insert integer e at position .
 # # print: Print the list.
