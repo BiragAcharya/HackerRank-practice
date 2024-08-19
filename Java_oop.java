@@ -1,6 +1,5 @@
 // public class Java_OOP
 
-
 // // Using inheritance, one class can acquire the properties of others. Consider the following Animal class:
 
 // // class Animal{
