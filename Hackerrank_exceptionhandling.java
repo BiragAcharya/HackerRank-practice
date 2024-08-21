@@ -96,6 +96,7 @@
 // // In the last two cases, at least one out of n and p is negative. So, the exception, "n or p should not be negative.", is printed for these two cases.
 
 
+
 // import java.util.Scanner;
 // class MyCalculator {
 //     // Method to compute power and handle exceptions
