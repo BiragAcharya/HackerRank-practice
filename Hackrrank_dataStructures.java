@@ -115,7 +115,6 @@
 // import java.util.Scanner;
 
 // public class Solution {
-
 //     public static void main(String[] args) {
 //         Scanner scanner = new Scanner(System.in);
 //         int[][] arr = new int[6][6];
@@ -302,7 +301,6 @@
 // import java.util.regex.*;
 
 // public class Solution {
-
 //     public static void main(String[] args) throws IOException {
 //         // Initialize Scanner to read from standard input
 //         Scanner scanner = new Scanner(System.in);
