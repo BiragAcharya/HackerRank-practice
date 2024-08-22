@@ -21,7 +21,6 @@
 
 
 # import datetime
-
 # # Step 1: Read input
 # input_str = input()
 
@@ -147,6 +146,7 @@
 # # Explanation 0
 # # Set A is the strict superset of the set ([1,2,3,4,5]) but not of the set([100,11,12]) because 100 is not in set A .
 # # Hence, the output is False.
+
 
 
 # # Input reading
