@@ -163,7 +163,6 @@
 
 
 
-
 # # Task
 # # You are given a string S.
 # # Your task is to print all possible size k replacement combinations of the string in lexicographic sorted order.
@@ -222,7 +221,6 @@
 
 
 
-
 # # Task
 # # You have a non-empty set s, and you have to execute N commands given in N lines.
 # # The commands will be pop, remove and discard.
@@ -262,7 +260,6 @@
 # # After completing these 10 operations on the set, we get set([4]). Hence, the sum is 4.
 
 # # Note: Convert the elements of set s to integers while you are assigning them. To ensure the proper input of the set, we have added the first two lines of code to the editor.
-
 
 
 
