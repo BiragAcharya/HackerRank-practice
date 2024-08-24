@@ -32,7 +32,6 @@
 
 
 # from itertools import product
-
 # # Reading the input lists
 # A = list(map(int, input().strip().split()))
 # B = list(map(int, input().strip().split()))
@@ -85,7 +84,6 @@
 
 
 # from itertools import permutations
-
 # # Reading the input
 # input_data = input().strip().split()
 # S = input_data[0]
