@@ -196,7 +196,6 @@
 // import java.util.Scanner;
 
 // public class Solution {
-
 //     public static void main(String[] args) {
 //             Scanner sc=new Scanner(System.in);
 //             System.out.println("================================");
@@ -394,6 +393,7 @@
 
 // // Output Format
 
+
 // // If both values are greater than zero, then the main method must output the area of the parallelogram. Otherwise, print "java.lang.Exception: Breadth and height must be positive" without quotes.
 
 
@@ -404,7 +404,6 @@
 // import java.util.regex.*;
 
 // public class Solution {
-
 //     static int B;
 //     static int H;
 //     static boolean flag = true;
