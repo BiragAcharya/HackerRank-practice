@@ -49,7 +49,6 @@
 -- The CITY table is described as follows:
 
 
-
 -- SELECT FLOOR(AVG(POPULATION)) AS avg_population
 -- FROM CITY;
 
@@ -78,7 +77,6 @@
 --      (SELECT AVG(CAST(REPLACE(Salary, '0', '') AS UNSIGNED)) FROM EMPLOYEES) - 
 --      (SELECT AVG(Salary) FROM EMPLOYEES)
 --  )) AS ErrorAmount;
-
 
 
 
