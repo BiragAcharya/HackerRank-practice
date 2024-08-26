@@ -58,7 +58,6 @@
 # second_lowest_score = scores[1]   
 
 # second_lowest_students = [name for name, score in students if score == second_lowest_score]
-
 # second_lowest_students.sort()
 
 # for student in second_lowest_students:
