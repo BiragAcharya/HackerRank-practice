@@ -147,7 +147,6 @@
 #     t = tuple(integer_list)  # Create a tuple t from the integers
     
 #     result = hash(t)  # Compute the hash value of tuple t
-    
 #     print(result)  # Print the hash value
 
 
