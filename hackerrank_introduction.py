@@ -66,7 +66,6 @@
 #     b = int(input("Enter b: "))
     
 #     x= a//b
-    
 #     y=a/b
     
 #     print(x)
