@@ -19,6 +19,7 @@
 --   AND Population > 120000;
 
 
+
 -- -- Query all columns (attributes) for every row in the CITY table.
 -- -- The CITY table is described as follows:
 
@@ -33,6 +34,7 @@
 -- SELECT *
 -- FROM CITY
 -- WHERE ID=1661;
+
 
 
 -- -- Query all attributes of every Japanese city in the CITY table. 
