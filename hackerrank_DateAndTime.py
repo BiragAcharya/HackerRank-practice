@@ -21,7 +21,6 @@
 
 
 # import datetime
-
 # # Step 1: Read input
 # input_str = input()
 
@@ -73,6 +72,7 @@
 # # Explanation 0
 # # In the first query, when we compare the time in UTC for both the time stamps, we see a difference of 7 hours. which is  7 * 3600 seconds or 25200 seconds.
 # # Similarly, in the second query, time difference is 5 hours and 30 minutes for time zone adjusting for that we have a difference of 1 day and 30 minutes. Or  24 * 3600 + 30 * 60 =88200
+
 
 
 
@@ -148,6 +148,7 @@
 # # Hence, the output is False.
 
 
+
 # # Input reading
 # A = set(input().split())
 # n = int(input())
@@ -197,6 +198,7 @@
 # # Explanation
 # # The list of room numbers contains 31 elements. Since K is 5, there must be 6 groups of families. In the given list, all of the numbers repeat 5 times except for room number 8.
 # # Hence,8 is the Captain's room number.
+
 
 
 

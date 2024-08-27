@@ -27,6 +27,7 @@ Values in the tuple (13,14,30) cannot form a triangle because the combined value
 
 
 
+
 <!-- ___Answer -->
 
 <!-- SELECT
@@ -38,6 +39,7 @@ Values in the tuple (13,14,30) cannot form a triangle because the combined value
     END AS Type
 FROM
     TRIANGLES; -->
+
 
 
 

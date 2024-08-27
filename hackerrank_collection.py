@@ -54,8 +54,6 @@
 # # NOTE: There is no penalty for solutions that are correct but have more than 4 lines.
 
 
-
-
 # N = int(input())
 # columns = input().split()
 # marks_idx = columns.index("MARKS")
@@ -114,8 +112,9 @@
 # # Net Price: 20
 
 
-# from collections import OrderedDict
 
+
+# from collections import OrderedDict
 # N = int(input())
 # items = OrderedDict()
 
@@ -201,7 +200,6 @@
 # Customer 6: Size 10 not available, so no purchase.
 
 # Total money earned = 55+45+40+60=$200 
-
 
 
 

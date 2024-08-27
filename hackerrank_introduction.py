@@ -21,6 +21,7 @@
 #         print("Not Weird")
 
 
+
 # # Task
 # # The provided code stub reads two integers from STDIN, a and b .  Add code to print three lines where:
 
@@ -48,6 +49,8 @@
 
 
 
+
+
 # # Task
 # # The provided code stub reads two integers, a and b, from STDIN.
 # # Add logic to print two lines. The first line should contain the result of integer division,  a//b . The second line should contain the result of float division,  a/b .
@@ -63,11 +66,11 @@
 #     b = int(input("Enter b: "))
     
 #     x= a//b
-    
 #     y=a/b
     
 #     print(x)
 #     print(y)
+
 
 
 # # Task
@@ -122,7 +125,6 @@
 # # Without using any string methods, try to print the following: 123...n
 
 # # Note that "..." represents the consecutive values in between.
-
 # # Example n=5
 
 # # Print the string 12345.

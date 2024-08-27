@@ -10,14 +10,11 @@
 // // System.out.println("Hello, Java.");
 
 // public class Solution {
-
 //     public static void main(String[] args) {
 //         System.out.println("Hello, World.");
 //         System.out.println("Hello, Java.");
 //     }
 // }
-
-
 
 
 
@@ -41,12 +38,13 @@
 // // myInt is: 5
 
 
+
 // // In this challenge, you must read  integers from stdin and then print them to stdout. Each integer must be printed on a new line.\
 // //  To make the problem a little easier, a portion of the code is provided for you in the editor below.
 // // Input Format
 // // There are  lines of input, and each line contains a single integer.
-// // Sample Input
 
+// // Sample Input
 // // 42
 // // 100
 // // 125
@@ -145,7 +143,6 @@
 // import java.util.Scanner;
 
 // public class Solution {
-
 //     public static void main(String[] args) {
 //         Scanner scan = new Scanner(System.in);
 //         int i = scan.nextInt();
@@ -199,7 +196,6 @@
 // import java.util.Scanner;
 
 // public class Solution {
-
 //     public static void main(String[] args) {
 //             Scanner sc=new Scanner(System.in);
 //             System.out.println("================================");
@@ -397,6 +393,7 @@
 
 // // Output Format
 
+
 // // If both values are greater than zero, then the main method must output the area of the parallelogram. Otherwise, print "java.lang.Exception: Breadth and height must be positive" without quotes.
 
 
@@ -407,7 +404,6 @@
 // import java.util.regex.*;
 
 // public class Solution {
-
 //     static int B;
 //     static int H;
 //     static boolean flag = true;

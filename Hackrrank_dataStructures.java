@@ -1,5 +1,4 @@
 // public class Hackrrank_dataStructures {
-    
 // }
 
 
@@ -35,7 +34,6 @@
 // // Each line i of the n subsequent lines contains a single integer denoting the value of element ai.
 
 // // Output Format
-
 // // You are not responsible for printing any output to stdout. Locked code in the editor loops through array a and prints each sequential element on a new line.
 
 
@@ -43,7 +41,6 @@
 // import java.util.*;
 
 // public class Solution {
-
 //     public static void main(String[] args) {
 	   
 //         Scanner scan = new Scanner(System.in);
@@ -114,10 +111,10 @@
 
 
 
+
 // import java.util.Scanner;
 
 // public class Solution {
-
 //     public static void main(String[] args) {
 //         Scanner scanner = new Scanner(System.in);
 //         int[][] arr = new int[6][6];
@@ -214,7 +211,6 @@
 // import java.util.*;
 
 // public class Solution {
-
 //     public static void main(String[] args) {
 //         Scanner scanner = new Scanner(System.in);
         
@@ -305,7 +301,6 @@
 // import java.util.regex.*;
 
 // public class Solution {
-
 //     public static void main(String[] args) throws IOException {
 //         // Initialize Scanner to read from standard input
 //         Scanner scanner = new Scanner(System.in);

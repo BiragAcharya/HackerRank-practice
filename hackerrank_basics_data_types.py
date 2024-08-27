@@ -9,8 +9,8 @@
 #     n = int(input("Enter n: "))
     
 # coordinates = [[i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if i+j+k != n]
-    
 # print(coordinates)
+
 
 
 
@@ -41,6 +41,7 @@
 
 
 
+
 # # Given the names and grades for each student in a class of N students,
 # # store them in a nested list and print the name(s) of any student(s) having the second lowest grade.
 # # Note: If there are multiple students with the second lowest grade, order their names alphabetically
@@ -57,7 +58,6 @@
 # second_lowest_score = scores[1]   
 
 # second_lowest_students = [name for name, score in students if score == second_lowest_score]
-
 # second_lowest_students.sort()
 
 # for student in second_lowest_students:
@@ -90,6 +90,7 @@
 #     average_score = sum(query_scores) / len(query_scores)
      
 #     print(f"{average_score:.2f}")
+
 
 
 
@@ -144,7 +145,6 @@
 #     t = tuple(integer_list)  # Create a tuple t from the integers
     
 #     result = hash(t)  # Compute the hash value of tuple t
-    
 #     print(result)  # Print the hash value
 
 
