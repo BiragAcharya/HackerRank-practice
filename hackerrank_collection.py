@@ -246,5 +246,36 @@
 
 
 
+from collections import deque
+
+# Initialize an empty deque
+d = deque()
+
+# Read the number of operations
+n = int(input())
+
+# Process each operation
+for _ in range(n):
+    operation = input().split()
+    method = operation[0]
+    
+    if method == "append":
+        d.append(operation[1])
+    elif method == "appendleft":
+        d.appendleft(operation[1])
+    elif method == "pop":
+        d.pop()
+    elif method == "popleft":
+        d.popleft()
+
+# Print the space-separated elements of the deque
+print(" ".join(d))
+
+
+
+
+
+
+
 
 
