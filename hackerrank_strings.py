@@ -15,6 +15,7 @@
 # # A single line containing a string s.
 
 
+
 # def swap_case(s):
 #     return s.swapcase()
 
