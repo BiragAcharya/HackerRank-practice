@@ -48,6 +48,7 @@
 
 -- Submissions: The submission_id is the id of the submission, hacker_id is the id of the hacker who made the submission, challenge_id is the id of the challenge that the submission belongs to, and score is the score of the submission. 
 
+
 -- Sample Input
 -- Hackers Table:  Difficulty Table:  Challenges Table:  Submissions Table: 
 
