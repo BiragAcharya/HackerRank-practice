@@ -161,7 +161,6 @@
 #     if not (A > other_set):  # Check if A is a strict superset of other_set
 #         is_strict_superset = False
 #         break
-
 # print(is_strict_superset)
 
 
