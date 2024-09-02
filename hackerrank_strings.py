@@ -142,9 +142,7 @@
 #     s_new = mutate_string(s, int(i), c)
 #     print(s_new)
 
-
 #     OR
-
 
 # def mutate_string(string: str, position: int, character: str) -> str:
 #     before = string[:position]
