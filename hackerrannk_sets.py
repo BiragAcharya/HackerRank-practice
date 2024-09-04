@@ -262,6 +262,7 @@
 # # UK and France repeat twice. Hence, the total number of distinct country stamps is 5 (five).
 
 
+
 # def count_distinct_stamps(n, countries):
 #     country_set = set()
 #     for country in countries:
