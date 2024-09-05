@@ -8,7 +8,6 @@
 
 
 # n = int(input("Enter number: ").strip())
-
 # if n % 2 != 0:
 #     print("Weird")
 
