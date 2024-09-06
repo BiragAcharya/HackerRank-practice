@@ -79,7 +79,6 @@
 #     student_marks = {}
     
 #     for _ in range(n):
-        
 #         entry = input().split()
 #         name= entry[0]
 #         scores = list(map(float, entry[1:]))
