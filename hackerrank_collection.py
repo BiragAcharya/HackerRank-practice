@@ -49,7 +49,6 @@
 # # Explanation
 # # TESTCASE 01
 # # Average = (97+50+91+72+80)/5
-
 # # Can you solve this challenge in 4 lines of code or less?
 # # NOTE: There is no penalty for solutions that are correct but have more than 4 lines.
 
