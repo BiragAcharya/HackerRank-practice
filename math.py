@@ -14,8 +14,8 @@
 
 # # Sample Input
 # #   1+2j
-# # Sample Output
 
+# # Sample Output
 # #  2.23606797749979 
 # #  1.1071487177940904
 
