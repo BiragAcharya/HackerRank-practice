@@ -14,9 +14,8 @@
 // // The code above prints the value stored at index  of , which is  (the value we previously stored there). It's important to note that while Java initializes each cell of an array of integers with a , not all languages do this.
 
 
-// // Task
-// // Task
 
+// // Task
 // // The code in your editor does the following:
 
 // // Reads an integer from stdin and saves it to a variable, , denoting some number of integers.
