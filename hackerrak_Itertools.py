@@ -141,7 +141,6 @@
 
 
 # from itertools import combinations
-
 # def print_combinations(string, k):
 #     # Sort the string to ensure lexicographic order
 #     sorted_string = ''.join(sorted(string))
