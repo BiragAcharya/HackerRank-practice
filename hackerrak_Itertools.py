@@ -197,7 +197,6 @@
 
 
 # from itertools import combinations_with_replacement
-
 # def print_replacement_combinations(string, k):
 #     # Sort the string to ensure lexicographic order
 #     sorted_string = ''.join(sorted(string))
