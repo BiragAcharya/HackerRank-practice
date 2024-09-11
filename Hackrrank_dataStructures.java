@@ -2,7 +2,6 @@
 // }
 
 
-
 // // To create an array of integers named  that can hold four integer values, you would write the following code:
 
 // // int[] myArray = new int[4];
@@ -13,6 +12,7 @@
 
 // // System.out.println(myArray[3]);
 // // The code above prints the value stored at index  of , which is  (the value we previously stored there). It's important to note that while Java initializes each cell of an array of integers with a , not all languages do this.
+
 
 // // Task
 // // Task
