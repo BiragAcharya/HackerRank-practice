@@ -20,7 +20,6 @@
 # # Input Format
 # # The first line contains n. The second line contains an array A[]  of n integers each separated by a space.
 
-
 # if __name__ == '__main__':
 #     n = int(input("Enter n: "))
 #     arr = list(map(int, input("Enter array: ").split()))
