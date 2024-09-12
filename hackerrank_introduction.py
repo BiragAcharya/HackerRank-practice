@@ -10,7 +10,6 @@
 # n = int(input("Enter number: ").strip())
 # if n % 2 != 0:
 #     print("Weird")
-
 # else:
 #     if 2<= n <= 5:
 #         print("Not Weird")
