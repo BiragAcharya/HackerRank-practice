@@ -28,9 +28,10 @@
 # # The third line contains the product of the two numbers.
 
 
+
 # a = int(input("Enter first number:").strip())
 # b = int(input("Enter second number:").strip())
-    
+
 # sum = a+b
 # difference = a-b
 # product= a*b
