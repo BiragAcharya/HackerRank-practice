@@ -73,6 +73,7 @@
 # # 'beta':[30,50,70]
 # # query_name = 'beta'
 
+
 # if __name__ == '__main__':
 #     n = int(input())
 #     student_marks = {}
