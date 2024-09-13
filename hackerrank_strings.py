@@ -7,7 +7,6 @@
 # # Function Description
 
 # # Complete the swap_case function in the editor below. swap_case has the following parameters:
-
 # # string s: the string to modify
 # # Returns
 # # string: the modified string
