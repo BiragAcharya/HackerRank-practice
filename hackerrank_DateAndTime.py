@@ -16,7 +16,6 @@
 # # Sample Output
 # # WEDNESDAY
 # # Explanation
-
 # # The day on August 5th 2015 was WEDNESDAY.
 
 
