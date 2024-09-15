@@ -61,7 +61,6 @@
 -- The EMPLOYEES table is described as follows:
 
 -- Note: Salary is per month.
-
 -- Constraints
 -- 1000<Salary<10^5.
 
