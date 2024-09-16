@@ -60,7 +60,6 @@
 
 
 
-
 -- WITH FullScores AS (
 --     SELECT
 --         s.hacker_id,
