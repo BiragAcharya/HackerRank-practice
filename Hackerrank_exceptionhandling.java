@@ -8,6 +8,7 @@
 // // 3
 // // Sample Output 0:
 // // 3
+
 // // Sample Input 1:
 // // 10
 // // Hello
