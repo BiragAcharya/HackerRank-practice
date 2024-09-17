@@ -12,7 +12,6 @@
 // // 10
 // // Hello
 // // Sample Output 1:
-
 // // java.util.InputMismatchException
 // // Sample Input 2:
 // // 10
