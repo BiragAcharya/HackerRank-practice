@@ -205,7 +205,6 @@
 -- where employee_id is an employee's ID number, name is their name,
 -- months is the total number of months they've been working for the company, and salary is the their monthly salary.
 
-
 -- -- SELECT name
 -- -- FROM Employee
 -- -- WHERE salary > 2000 AND months < 10
