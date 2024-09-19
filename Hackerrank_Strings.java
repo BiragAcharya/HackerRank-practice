@@ -69,7 +69,6 @@
 //         // Read start and end indices
 //         int start = scanner.nextInt();
 //         int end = scanner.nextInt();
-        
 //         scanner.close();
         
 //         // Extract substring from s
