@@ -1,7 +1,6 @@
 // public class Hackrrank_dataStructures {
 // }
 
-
 // // To create an array of integers named  that can hold four integer values, you would write the following code:
 
 // // int[] myArray = new int[4];
