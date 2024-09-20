@@ -27,7 +27,6 @@
 // // Good luck!
 
 // // Input Format
-
 // // The first line contains a single integer, , denoting the size of the array.
 // // Each line i of the n subsequent lines contains a single integer denoting the value of element ai.
 
