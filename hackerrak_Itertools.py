@@ -30,7 +30,6 @@
 
 
 
-
 # from itertools import product
 # # Reading the input lists
 # A = list(map(int, input().strip().split()))
