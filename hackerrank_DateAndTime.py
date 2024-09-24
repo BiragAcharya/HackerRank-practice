@@ -46,7 +46,7 @@
 # # Since sometimes posts are published and viewed in different time zones, this can be confusing. 
 # # You are given two timestamps of one such post that a user can see on his newsfeed in the following format:
 # # Day dd Mon yyyy hh:mm:ss +xxxx
-# # Here +xxxx represents the time zone. Your task is to print the absolute difference (in seconds) between them.
+# # Here +xxxx represents the time zone.Your task is to print the absolute difference (in seconds) between them.
 
 # # Input Format
 # # The first line contains T, the number of testcases.
