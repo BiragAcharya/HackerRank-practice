@@ -7,7 +7,7 @@
 # # >>> a = '1'
 # # >>> b = '0'
 # # >>> print int(a) / int(b)
-# # >>> ZeroDivisionError: integer division or modulo by zero
+# # >>> ZeroDivisionError:integer division or modulo by zero
 # # ValueError
 # # This error is raised when a built-in operation or function receives an argument that has the right type but an inappropriate value.
 # # >>> a = '1'
