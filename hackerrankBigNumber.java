@@ -50,6 +50,5 @@
 //         // Print the results
 //         System.out.println(sum);
 //         System.out.println(product);
-
 //     }
 // }
