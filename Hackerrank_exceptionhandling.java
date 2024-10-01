@@ -83,9 +83,11 @@
 // // Sample Output 0
 // // 243
 // // 16
+
 // // java.lang.Exception: n and p should not be zero.
 // // java.lang.Exception: n or p should not be negative.
 // // java.lang.Exception: n or p should not be negative.
+
 // // Explanation 0
 // // In the first two cases, both n and p are postive. So, the power function returns the answer correctly.
 // // In the third case, both n and p are zero. So, the exception, "n and p should not be zero.", is printed.
