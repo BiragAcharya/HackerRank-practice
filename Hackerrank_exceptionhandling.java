@@ -6,6 +6,7 @@
 // // Sample Input 0:
 // // 10
 // // 3
+
 // // Sample Output 0:
 // // 3
 
