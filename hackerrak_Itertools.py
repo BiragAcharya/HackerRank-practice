@@ -1,6 +1,6 @@
 # # Task
-# # You are given a two lists A and B. Your task is to compute their cartesian product A X B.
 
+# # You are given a two lists A and B. Your task is to compute their cartesian product A X B.
 # # Example
 # # A = [1, 2]
 # # B = [3, 4]
