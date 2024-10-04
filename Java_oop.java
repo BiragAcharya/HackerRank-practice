@@ -24,8 +24,8 @@
 // //       bird.fly();
 // //    }
 // // }
-// // The above code will print:
 
+// // The above code will print:
 // // I am walking
 // // I am flying
 // // This means that a Bird object has all the properties that an Animal object has, as well as some additional unique properties.
