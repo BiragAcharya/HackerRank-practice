@@ -93,7 +93,6 @@
 -- -- first when ordered alphabetically.
 -- -- The STATION table is described as follows:
 
-
 -- SELECT CITY, LENGTH(CITY) AS Name_Length
 -- FROM STATION
 -- ORDER BY LENGTH(CITY), CITY
