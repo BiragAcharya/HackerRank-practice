@@ -10,7 +10,6 @@ The TRIANGLES table is described as follows:
 ![alt text](image.png)
 
 Each row in the table denotes the lengths of each of a triangle's three sides.
-
 Sample Input
 ![alt text](image-1.png)
 
