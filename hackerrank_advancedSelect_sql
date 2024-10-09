@@ -86,7 +86,6 @@ The results of the second query are ascendingly ordered first by number of names
 
 
 
-
 <!-- SELECT 
     Name || '(' || SUBSTR(Occupation, 1, 1) || ')' AS NameProfession
 FROM 
