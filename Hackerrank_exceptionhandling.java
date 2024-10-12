@@ -20,6 +20,7 @@
 // // Sample Input 2:
 // // 10
 // // 0
+
 // // Sample Output 2:
 // // java.lang.ArithmeticException: / by zero
 
