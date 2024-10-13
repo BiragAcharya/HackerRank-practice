@@ -4,7 +4,7 @@
 // // To create an array of integers named  that can hold four integer values,you would write the following code:
 
 // // int[] myArray = new int[4];
-// // This sets aside a block of memory that's capable of storing  integers. Each integer storage cell is assigned a unique index ranging from  to one less than the size of the array, and each cell initially contains a . In the case of , we can store integers at indices , , , and . Let's say we wanted the last cell to store the number ; to do this, we write:
+// // This sets aside a block of memory that's capable of storing integers. Each integer storage cell is assigned a unique index ranging from  to one less than the size of the array, and each cell initially contains a . In the case of , we can store integers at indices , , , and . Let's say we wanted the last cell to store the number ; to do this, we write:
 
 // // myArray[3] = 12;
 // // Similarly, we can print the contents of the last cell with the following code:
