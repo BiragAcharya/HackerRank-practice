@@ -30,7 +30,6 @@
 
 // // Hi 5
 // // Our code will print:
-
 // // myString is: Hi
 // // myInt is: 5
 
