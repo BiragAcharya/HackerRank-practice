@@ -46,7 +46,6 @@
 # # 0<N<=100
 
 
-
 # def average(array):
 #    distinct_heights = set(arr)  # Create a set to remove duplicates
 #    return round(sum(distinct_heights) / len(distinct_heights), 3)  # Calculate and return the average rounded to 3 decimal places
