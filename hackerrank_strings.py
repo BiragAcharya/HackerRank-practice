@@ -11,7 +11,7 @@
 # # Returns
 # # string: the modified string
 # # Input Format
-# # A single line containing a string s.
+# # A single line containing a string s .
 
 
 
