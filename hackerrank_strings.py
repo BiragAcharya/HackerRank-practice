@@ -81,8 +81,8 @@
 # # string first: the first name
 # # string last: the last name
 # # Prints
-
 # # string: 'Hello firstname lastname ! You just delved into python' where firstname and lastname are replaced with first and last.
+
 # # Input Format
 # # The first line contains the first name, and the second line contains the last name.
 
