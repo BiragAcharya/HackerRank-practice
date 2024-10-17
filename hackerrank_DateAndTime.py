@@ -30,7 +30,7 @@
 # month,day,year = map(int, input_str.split())
 
 # # Step 3: Create a date object
-# date = datetime.date(year, month, day)
+# date = datetime.date(year,month,day)
 
 # # Step 4: Find the day of the week
 # day_of_week = date.strftime("%A").upper()
