@@ -27,7 +27,7 @@
 # input_str = input()
 
 # # Step 2: Parse the input
-# month, day, year = map(int, input_str.split())
+# month,day,year = map(int, input_str.split())
 
 # # Step 3: Create a date object
 # date = datetime.date(year, month, day)
