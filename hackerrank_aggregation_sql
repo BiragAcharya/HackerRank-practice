@@ -34,7 +34,6 @@
 -- Input Format
 -- The CITY table is described as follows:
 
-
 -- SELECT MAX(POPULATION) - MIN(POPULATION) AS PopulationDifference
 -- FROM CITY;
 
