@@ -17,7 +17,6 @@
 # # >>> ValueError: invalid literal for int() with base 10: '#'
 # # To learn more about different built-in exceptions click here.
 
-
 # # Handling Exceptions
 # # The statements try and except can be used to handle selected exceptions. A try statement may have more than one except clause to specify handlers for different exceptions.
 
