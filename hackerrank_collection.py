@@ -30,10 +30,8 @@
 # # 4          72         Stewart    5         
 # # 5          80         Peter      6   
 
-
 # # TESTCASE 02
 # # 5
-
 # # MARKS      CLASS      NAME       ID        
 # # 92         2          Calum      1         
 # # 82         5          Scott      2         
