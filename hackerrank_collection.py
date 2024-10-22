@@ -3,7 +3,7 @@
 # # Dr. John Wesley has a spreadsheet containing a list of student's IDs, marks ,class  and name.
 # # Your task is to help Dr.Wesley calculate the average marks of the students.
 
-# # Average = Sum of all marks/Total students
+# # Average = Sum of all marks / Total students
 
 # # Note:
 # # 1. Columns can be in any order. IDs, marks, class and name can be written in any order in the spreadsheet.
