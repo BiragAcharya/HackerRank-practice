@@ -86,7 +86,6 @@
 # # 12
 
 
-
 # if __name__ == '__main__':
 #     # Read the size of the first set
 #     m = int(input())
