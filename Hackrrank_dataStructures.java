@@ -60,7 +60,6 @@
 
 
 
-
 // // You are given a 6*6 2D array. An hourglass in an array is a portion shaped like this:
 
 // // a b c
