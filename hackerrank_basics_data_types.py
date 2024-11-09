@@ -163,7 +163,6 @@
 # # 3713081631934410656
 
 
-
 # if __name__ == '__main__':
 #     n = int(input())  # Read the integer n
 #     integer_list = map(int, input().split())  # Read n space-separated integers
