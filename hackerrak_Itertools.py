@@ -77,7 +77,6 @@
 # # All possible size 2 permutations of the string "HACK" are printed in lexicographic sorted order.
 
 
-
 # from itertools import permutations
 # # Reading the input
 # input_data = input().strip().split()
