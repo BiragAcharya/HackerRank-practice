@@ -76,7 +76,6 @@
 
 
 
-
 // // A substring of a string is a contiguous block of characters in the string. For example, the substrings of abc are a, b, c, ab, bc, and abc.
 // // Given a string,s , and an integer, k, complete the function so that it finds the lexicographically smallest and largest substrings of length k.
 
