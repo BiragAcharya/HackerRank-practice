@@ -34,7 +34,6 @@
 // // You are not responsible for printing any output to stdout. Locked code in the editor loops through array a and prints each sequential element on a new line.
 
 
-
 // import java.util.*;
 
 // public class Solution {
