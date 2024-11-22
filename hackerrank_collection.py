@@ -194,7 +194,6 @@
 
 
 
-
 # from collections import Counter
 
 # # Input the number of shoes
