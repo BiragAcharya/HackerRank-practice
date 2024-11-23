@@ -80,7 +80,6 @@ The results of the first query are formatted to the problem description's specif
 The results of the second query are ascendingly ordered first by number of names corresponding to each profession (2<=2<=3<=3), and then alphabetically by profession (doctor<=singer , and actor <= professor). -->
 
 
-
 <!-- SELECT 
     Name || '(' || SUBSTR(Occupation, 1, 1) || ')' AS NameProfession
 FROM 
