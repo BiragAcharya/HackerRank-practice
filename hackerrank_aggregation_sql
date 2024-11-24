@@ -88,7 +88,6 @@
 
 
 
-
 -- SELECT 
 --     MAX(total_earnings) AS max_total_earnings,
 --     COUNT(*) AS num_employees_with_max_earnings
