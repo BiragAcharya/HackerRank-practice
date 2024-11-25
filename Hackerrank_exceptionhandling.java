@@ -27,6 +27,7 @@
 // // Sample Input 3:
 // // 23.323
 // // 0
+
 // // Sample Output 3:
 // // java.util.InputMismatchException
 
