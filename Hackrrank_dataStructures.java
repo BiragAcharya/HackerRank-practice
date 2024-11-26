@@ -16,7 +16,6 @@
 
 // // Task
 // // The code in your editor does the following:
-
 // // Reads an integer from stdin and saves it to a variable, , denoting some number of integers.
 // // Reads n integers corresponding to a0,a1,...,an-1 from stdin and saves each integer ai to a variable, val.
 // // Attempts to print each element of an array of integers named .
