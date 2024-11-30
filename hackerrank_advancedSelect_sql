@@ -112,7 +112,6 @@ Inner: If node is neither root nor leaf node.
 Sample Input
 ![alt text](image-5.png)
 
-
 Sample Output
 1 Leaf
 2 Inner
