@@ -109,7 +109,6 @@ Root: If node is root node.
 Leaf: If node is leaf node.
 Inner: If node is neither root nor leaf node.
 
-
 Sample Input
 ![alt text](image-5.png)
 
