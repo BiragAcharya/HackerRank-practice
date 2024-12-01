@@ -141,7 +141,6 @@
 
 
 
-
 -- WITH MinCostWands AS (
 --     SELECT
 --         wp.code,
