@@ -205,7 +205,6 @@
 # # In the fifth line, print True if  has any uppercase characters. Otherwise, print False.
 
 # # Sample Input
-
 # # qA2
 # # Sample Output
 
