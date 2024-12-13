@@ -53,7 +53,6 @@
 -- Only hacker 90411 managed to earn a full score for more than one challenge, so we print the their hacker_id and name as  space-separated values.
 
 
-
 -- WITH FullScores AS (
 --     SELECT
 --         s.hacker_id,
