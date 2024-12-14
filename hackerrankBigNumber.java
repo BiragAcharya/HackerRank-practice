@@ -26,7 +26,6 @@
 // // 1234*20=24680
 
 
-
 // import java.math.BigInteger;
 // import java.util.Scanner;
 
