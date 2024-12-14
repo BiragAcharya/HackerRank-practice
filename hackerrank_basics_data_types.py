@@ -82,7 +82,6 @@
     
 #     query_scores = student_marks[query_name]
 #     average_score = sum(query_scores) / len(query_scores)
-     
 #     print(f"{average_score:.2f}")
 
 
