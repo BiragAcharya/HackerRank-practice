@@ -58,6 +58,7 @@
 # print(f"{sum(int(input().split()[marks_idx]) for _ in range(N)) / N:.2f}")
 
 
+
 # # Task
 # # You are the manager of a supermarket.
 # # You have a list of N items together with their prices that consumers bought on a particular day.
