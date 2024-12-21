@@ -81,7 +81,6 @@
 // // Print Weird if the number is weird; otherwise, print Not Weird.
 
 
-
 // import java.util.Scanner;
 
 // public class Solution {
