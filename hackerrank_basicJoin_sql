@@ -138,7 +138,6 @@
 -- wand(age=17,power=10)=9897
 
 
-
 -- WITH MinCostWands AS (
 --     SELECT
 --         wp.code,
