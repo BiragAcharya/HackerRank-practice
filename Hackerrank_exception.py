@@ -30,7 +30,6 @@
 # # Error Code: integer division or modulo by zero
 
 
-
 # # Task
 # # You are given two values a and b.
 # # Perform integer division and print a/b.
