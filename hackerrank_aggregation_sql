@@ -41,7 +41,6 @@
 -- Input Format
 -- The CITY table is described as follows:
 
-
 -- SELECT FLOOR(AVG(POPULATION)) AS avg_population
 -- FROM CITY;
 
