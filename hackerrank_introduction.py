@@ -122,6 +122,7 @@
 # # Input Format
 # # The first line contains an integer n.
 
+
 if __name__ == '__main__':
     n = int(input("Enter: "))
     
