@@ -144,6 +144,7 @@
 # [3, 4, 4, 2, 1]
 
 
+
 # Task
 # Raghu is a shoe shop owner. His shop has X number of shoes.
 # He has a list containing the size of each shoe he has in his shop.
