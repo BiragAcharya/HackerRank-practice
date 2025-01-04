@@ -59,6 +59,7 @@
 
 
 
+
 # # Task
 # # You are the manager of a supermarket.
 # # You have a list of N items together with their prices that consumers bought on a particular day.
