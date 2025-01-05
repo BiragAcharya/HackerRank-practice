@@ -9,7 +9,7 @@
 // // There will be two lines containing two numbers, a and b.
 
 // // Constraints
-// // a and b are non-negative integers and can have maximum  200 digits.
+// // a and b are non-negative integers and can have maximum 200 digits.
 
 // // Output Format
 // // Output two lines. The first line should contain a+b, and the second line should contain a*b . Don't print any leading zeros.
