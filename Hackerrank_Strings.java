@@ -110,7 +110,6 @@
 //                 largest = currentSubstring;
 //             }
 //         }
-        
 //         return smallest + "\n" + largest;
 //     }
 //     public static void main(String[] args) {
