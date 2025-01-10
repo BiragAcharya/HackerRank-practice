@@ -74,7 +74,7 @@
 
 // // Output Format
 // // Each line of the output contains the result , if both  and  are positive. If either  or  is negative, the output contains "n and p should be non-negative".
-// //  If both  and  are zero, the output contains "n and p should not be zero.". This is printed by the locked stub code in the editor.
+// // If both  and  are zero, the output contains "n and p should not be zero.". This is printed by the locked stub code in the editor.
 
 // // Sample Input 0
 // // 3 5
