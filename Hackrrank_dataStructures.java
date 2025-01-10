@@ -71,7 +71,7 @@
 // // 1 1 1     1 1 0     1 0 0
 // //   1         0         0
 // // 1 1 1     1 1 0     1 0 0
-// // The sum of an hourglass is the sum of all the numbers within it. The sum for the hourglasses above are 7, 4, and 2, respectively.
+// // The sum of an hourglass is the sum of all the numbers within it. The sum for the hourglasses above are 7, 4 and 2, respectively.
 // // In this problem you have to print the largest sum among all the hourglasses in the array.
 
 // // Input Format
