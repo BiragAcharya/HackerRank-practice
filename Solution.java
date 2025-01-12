@@ -54,7 +54,6 @@
 //         // Assuming we need to read exactly 3 integers as per the sample input
 //         // If the number of lines is dynamic, read it first
 //         int n = 3;
-
 //         for (int i = 0; i < n; i++) {
 //             int num = scanner.nextInt();
 //             System.out.println(num);
