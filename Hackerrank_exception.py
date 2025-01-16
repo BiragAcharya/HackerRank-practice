@@ -13,7 +13,7 @@
 # # This error is raised when a built-in operation or function receives an argument that has the right type but an inappropriate value.
 # # >>> a = '1'
 # # >>> b = '#'
-# # >>> print int(a)/ int(b)
+# # >>> print int(a)/int(b)
 # # >>> ValueError: invalid literal for int() with base 10: '#'
 # # To learn more about different built-in exceptions click here.
 
