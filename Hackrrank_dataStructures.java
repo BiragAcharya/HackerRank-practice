@@ -111,7 +111,6 @@
 //                 arr[i][j] = scanner.nextInt();
 //             }
 //         }
-        
 //         scanner.close();
 
 //         // Initialize the maximum sum to the lowest possible value
