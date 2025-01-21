@@ -126,7 +126,7 @@
 
 
 # # Task
-# # Given an integer, and  space-separated integers as input, create a tuple, , of those  integers. Then compute and print the result of hash(t).
+# # Given an integer and  space-separated integers as input, create a tuple, , of those  integers. Then compute and print the result of hash(t).
 # # Note: hash() is one of the functions in the __builtins__ module, so it need not be imported.
 # # Input Format
 # # The first line contains an integer, n, denoting the number of elements in the tuple.
