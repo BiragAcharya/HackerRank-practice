@@ -223,7 +223,6 @@
 //             int result = N * i;
 //             System.out.printf("%d x %d = %d%n", N, i, result);
 //         }
-        
 //         scanner.close();
 //     }
 // }
