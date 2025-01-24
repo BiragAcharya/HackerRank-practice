@@ -191,7 +191,6 @@
 #             happiness += 1
 #         elif i in B:
 #             happiness -= 1
-    
 #     return happiness
 
 # if __name__ == '__main__':
