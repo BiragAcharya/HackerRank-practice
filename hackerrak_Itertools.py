@@ -28,6 +28,7 @@
 # #  (1, 3) (1, 4) (2, 3) (2, 4)
 
 
+
 # from itertools import product
 # # Reading the input lists
 # A = list(map(int, input().strip().split()))
