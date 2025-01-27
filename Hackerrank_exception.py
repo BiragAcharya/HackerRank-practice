@@ -24,7 +24,7 @@
 # # try:
 # #     print 1/0
 # # except ZeroDivisionError as e:
-# #     print "Error Code:",e
+# #     print "Error Code:", e
 
 # # Output
 # # Error Code: integer division or modulo by zero
