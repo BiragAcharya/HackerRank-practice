@@ -21,7 +21,7 @@
 // // Attempts to print each element of an array of integers named .
 // // Write the following code in the unlocked portion of your editor:
 
-// // Create an array,a  capable of holding n integers.
+// // Create an array,a capable of holding n integers.
 // // Modify the code in the loop so that it saves each sequential value to its corresponding location in the array. For example, the first value must be stored in a0, the second value must be stored in a1, and so on.
 // // Good luck!
 
