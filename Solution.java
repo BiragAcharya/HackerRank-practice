@@ -73,7 +73,7 @@
 // // Complete the stub code provided in your editor to print whether or not  is weird.
 
 // // Input Format
-// // A single line containing a positive integer, .
+// // A single line containing a positive integer .
 // // Constraints
 
 // // Output Format
