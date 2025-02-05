@@ -14,7 +14,7 @@
 
 -- SELECT AVG(POPULATION) AS AveragePopulation
 -- FROM CITY
--- WHERE DISTRICT = 'California';
+-- WHERE DISTRICT = 'California' ;
 
 
 
