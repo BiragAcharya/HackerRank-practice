@@ -37,7 +37,7 @@
 # # Perform integer division and print a/b.
 
 # # Input Format
-# # The first line contains T , the number of test cases.
+# # The first line contains T, the number of test cases.
 # # The next T lines each contain the space separated values of a and b.
 
 # # Constraints
