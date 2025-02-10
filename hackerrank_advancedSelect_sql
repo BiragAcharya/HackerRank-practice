@@ -27,7 +27,7 @@ Values in the tuple (13,14,30) cannot form a triangle because the combined value
 
 
 <!--___ Answer-->
-<!-- SELECT
+<!--SELECT
     CASE
         WHEN A + B <= C OR A + C <= B OR B + C <= A THEN 'Not A Triangle'
         WHEN A = B AND B = C THEN 'Equilateral'
